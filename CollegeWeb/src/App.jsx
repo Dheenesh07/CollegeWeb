@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+import React from "react";
+import ReachUsSidebar from "./components/ReachUsSidebar/ReachUsSidebar";
+import CourseOffered from "./Components/CourseOffered/CourseOffered";
+import DeanDesk from "./Components/Administration/DeanDesk";
+import { ExamCell } from "./Components/Administration/ExamCell";
+
+=======
 import React from 'react';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './App.css'; 
@@ -9,9 +17,21 @@ import ECE from './Components/Departments/ECE/ECE';
 import EEE from './Components/Departments/EEE/EEE';
 import ME from './Components/Departments/ME/ME';
 import SAH from './Components/Departments/SAH/SAH';
-
+>>>>>>> ff8454f676a6c29e01fbcc3adf67083771e9ea45
 function App() {
+  
+
   return (
+<<<<<<< HEAD
+    <div>
+      {/* <h1>My Website</h1> */}
+      {/* <ReachUsSidebar /> */}
+
+      <CourseOffered/>
+      <DeanDesk/>
+      <ExamCell/>
+    </div>
+=======
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -24,6 +44,7 @@ function App() {
         <Route path="/departments/sah" element={<SAH />} />
       </Routes>
     </BrowserRouter>
+>>>>>>> ff8454f676a6c29e01fbcc3adf67083771e9ea45
   );
 }
 export default App;
