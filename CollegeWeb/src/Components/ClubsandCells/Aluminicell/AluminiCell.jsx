@@ -1,6 +1,5 @@
 import React from "react";
 import "./AluminiCell.css";
-import image from ''
 
 const AlumniCell = () => {
   return (
