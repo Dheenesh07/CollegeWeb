@@ -59,13 +59,12 @@ const routes = {
   "Electrical and Electronics Engineering": "/departments/eee",
   "Mechanical Engineering": "/departments/me",
   "Science and Humanities": "/departments/sah",
-  Resources: "/resources", // placeholder, add route if you create page
-  AICTE: "/AICTE", // placeholder
+  Resources: "/resources", 
+  AICTE: "/AICTE", 
   Contact: "/contact",
 };
 
 const Navbar = () => {
-  // const [isOpen, setIsOpen] = useState(false);
   return (
     <nav>
       <div className="nav-container">
@@ -93,7 +92,7 @@ const Navbar = () => {
           })}
           <li>
             <Link to="/reach-us">
-              <button  onClick={() => setIsOpen(true)}>
+              <button>
                 <i className="fas fa-phone"></i>&nbsp;&nbsp;Reach us
               </button>
             </Link>

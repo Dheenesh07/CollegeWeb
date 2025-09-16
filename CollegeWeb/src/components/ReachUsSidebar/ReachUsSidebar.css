@@ -54,17 +54,17 @@
 
 
 /* Contact Info */
-.contact-info h3 {
+.contact-info1 h3 {
   color: darkblue;
   margin-bottom: 15px;
 }
 
-.contact-info ul {
+.contact-info1 ul {
   list-style: none;
   padding: 0;
 }
 
-.contact-info li {
+.contact-info1 li {
   margin-bottom: 12px;
   font-size: 1rem;
   color: rgb(18, 18, 19);
@@ -73,19 +73,19 @@
   transition: color 0.3s;
 }
 
-.contact-info li i {
+.contact-info1 li i {
   margin-right: 8px;
   color: rgb(20, 20, 20);
   transition: color 0.3s;
 }
 
-.contact-info li:hover,
-.contact-info li:hover i,
-.contact-info li a:hover {
+.contact-info1 li:hover,
+.contact-info1 li:hover i,
+.contact-info1 li a:hover {
   color: rgb(199, 7, 7);
 }
 
-.contact-info a {
+.contact-info1 a {
   color: rgb(47, 47, 49);
   /* text-decoration: none; */
   transition: color 0.3s;
@@ -150,7 +150,7 @@
     max-width: 100%;
   }
 
-  .contact-info li {
+  .contact-info1 li {
     font-size: 0.9rem;
   }
 

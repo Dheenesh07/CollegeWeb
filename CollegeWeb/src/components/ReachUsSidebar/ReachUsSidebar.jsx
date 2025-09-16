@@ -1,23 +1,21 @@
-import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./ReachUsSidebar.css";
 
 const ReachUsModal = () => {
-  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
-      <div className="sidebar-overlay" onClick={() => setIsOpen(false)}>
+      <div className="sidebar-overlay" >
         <div className="sidebar-container" onClick={(e) => e.stopPropagation()}>
           {/* Close Button */}
 
           <Link to="/">
-            <span className="close-btn" onClick={() => setIsOpen(false)}>
+            <span className="close-btn" >
               <i className="fas fa-times"></i>
             </span>
           </Link>
           {/* Contact Info */}
-          <div className="contact-info">
+          <div className="contact-info1">
             <h3>Contact Information</h3>
             <ul>
               <li>

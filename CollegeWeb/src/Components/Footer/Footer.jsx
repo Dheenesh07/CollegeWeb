@@ -2,17 +2,17 @@ import React from "react";
 import "./Footer.css";
 
 const quickLinks = [
-  { href: "#About", text: "About Us" },
-  { href: "#Place,ments", text: "Placement" },
+  { href: "/", text: "About Us" },
+  { href: "#Placements", text: "Placement" },
   { href: "#Sports", text: "Sports" },
-  { href: "#Contact", text: "Contact" },
+  { href: "/contact", text: "Contact" },
   { href: "#Services", text: "NIRF" },
 ];
 const academics = [
-  { href: "#About", text: "Home" },
-  { href: "#Place,ments", text: "Academic" },
+  { href: "/", text: "Home" },
+  { href: "/courses-offered", text: "Academic" },
   { href: "#Sports", text: "Library" },
-  { href: "#Contact", text: "Department" },
+  { href: "/departments", text: "Department" },
   { href: "#Services", text: "Alumni Cell" },
 ];
 const socialLinks = [
@@ -26,7 +26,7 @@ const Footer = () => {
   return (
     <footer className="footer-section">
       <div className="footer-container">
-        <div className="footer-column1 about1">
+        <div className="footer-column1">
           <div className="footer-column1 links">
             <h3>Address</h3>
             <ul>

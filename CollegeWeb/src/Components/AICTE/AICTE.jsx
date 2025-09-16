@@ -41,7 +41,7 @@ export default function AICTE() {
                 href={item.file}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="committee-card"
+                className="committee-card1"
               >
                 {item.label}
               </a>

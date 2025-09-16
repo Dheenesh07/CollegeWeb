@@ -49,7 +49,7 @@ export default function ContactUs() {
         </section>
 
         
-        <aside className="contact-info">
+        <aside className="contact-info2">
           <div className="info-box">
             <h3>📞 Contact</h3>
             <p>04329-2917278</p>

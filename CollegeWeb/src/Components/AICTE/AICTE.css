@@ -109,7 +109,7 @@ body {
 }
 
 
-.committee-card{
+.committee-card1{
   display: block;
   width: 100%;
   padding: 22px 18px;
@@ -126,7 +126,7 @@ body {
 }
 
 
-.committee-card.active{
+.committee-card1.active{
   background: var(--navy);
   color: #fff;
   border-color: transparent;
@@ -135,7 +135,7 @@ body {
 }
 
 
-.committee-card:not(.active):hover{
+.committee-card1:not(.active):hover{
   transform: translateY(-3px);
   box-shadow: 0 8px 18px rgba(11,27,69,0.06);
   border-color: var(--navy);
