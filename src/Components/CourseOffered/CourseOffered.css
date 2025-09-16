@@ -1,0 +1,106 @@
+.course-container {
+  max-width: 1300px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.course-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: darkred;
+  margin-bottom: 30px;
+}
+
+.course-item {
+  border: 0.5px solid #c28782;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: ease-out 1s;
+}
+
+.course-item:hover {
+  background-color: transparent;
+}
+
+.course-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-header h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(25, 25, 109); /* dark blue */
+  margin: 0;
+}
+
+.course-toggle {
+  font-size: 20px;
+  font-weight: bold;
+  color:  rgb(25, 25, 109);
+}
+
+.course-content {
+  margin-top: 10px;
+}
+
+.course-type {
+  color: darkred; 
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.course-description {
+  color: #333;
+  line-height: 1.4;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dean-banner {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(255, 255, 255, 0.6); */
+}
+
+.banner-content {
+  position: relative;
+  padding-left: 60px;
+}
+
+.banner-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #1e3a8a; /* dark blue */
+}
+
+.breadcrumb {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.breadcrumb a {
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: 500;
+}
