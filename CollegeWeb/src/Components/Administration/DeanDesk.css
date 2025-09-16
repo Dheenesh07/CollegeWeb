@@ -1,0 +1,100 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dean-banner {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(255, 255, 255, 0.6); */
+}
+
+.banner-content {
+  position: relative;
+  padding-left: 60px;
+  z-index: 1;
+}
+
+.banner-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #1e3a8a; /* dark blue */
+}
+
+.breadcrumb {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.breadcrumb a {
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.breadcrumb span {
+  color: #b91c1c; /* red */
+}
+
+/* Dean Section */
+.dean-container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px;
+  gap: 40px;
+}
+
+.dean-left {
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+}
+
+.dean-img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  background: #f0f0f0;
+}
+
+.dean-name {
+  margin-top: 8px;
+  background: #800000; /* maroon bar */
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 0 0 4px 4px;
+}
+
+.dean-right {
+  flex: 3;
+}
+
+.dean-heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+.dean-text {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}

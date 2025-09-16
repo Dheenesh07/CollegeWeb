@@ -1,18 +1,20 @@
-<<<<<<< HEAD
 import React from "react";
 import ReachUsSidebar from "./components/ReachUsSidebar/ReachUsSidebar";
+import CourseOffered from "./Components/CourseOffered/CourseOffered";
+import DeanDesk from "./Components/Administration/DeanDesk";
+import { ExamCell } from "./Components/Administration/ExamCell";
 
 function App() {
   return (
     <div>
       {/* <h1>My Website</h1> */}
-      <ReachUsSidebar />
+      {/* <ReachUsSidebar /> */}
+
+      <CourseOffered/>
+      <DeanDesk/>
+      <ExamCell/>
     </div>
   );
-=======
-function App() {
-  return <></>;
->>>>>>> 7bb936545f5025504eead7f876c882d4d318a243
 }
 
 export default App;
