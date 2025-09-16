@@ -13,7 +13,6 @@ import SAH from './Components/Departments/SAH/SAH';
 function App() {
   return (
     <BrowserRouter>
-      {/* The extra <Home/> component was removed from here */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/departments" element={<AllDepartments />} />
@@ -27,5 +26,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;
