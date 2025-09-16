@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import ReachUsSidebar from "./components/ReachUsSidebar/ReachUsSidebar";
 
@@ -8,6 +9,10 @@ function App() {
       <ReachUsSidebar />
     </div>
   );
+=======
+function App() {
+  return <></>;
+>>>>>>> 7bb936545f5025504eead7f876c882d4d318a243
 }
 
 export default App;
