@@ -26,8 +26,8 @@ const Footer = () => {
   return (
     <footer className="footer-section">
       <div className="footer-container">
-        <div className="footer-column about">
-          <div className="footer-column links">
+        <div className="footer-column1 about1">
+          <div className="footer-column1 links">
             <h3>Address</h3>
             <ul>
               <li>Vilangudi,</li>
@@ -36,7 +36,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="footer-column contact-info">
+        <div className="footer-column1 contact-info">
           <h3>Get Help</h3>
           <p>
             <i className="bi bi-telephone-fill"></i> 04329 - 2917278
@@ -45,11 +45,11 @@ const Footer = () => {
             <i className="bi bi-envelope-fill"></i> ucea@auucea.edu.in
           </p>
           <p>
-            <i class="fa fa-globe" aria-hidden="true" />
+            <i className="fa fa-globe" aria-hidden="true" />
             www.auucea.edu.in
           </p>
         </div>
-        <div className="footer-column links">
+        <div className="footer-column1 links">
           <h3>Quick Links</h3>
           <ul>
             {quickLinks.map((link) => (
@@ -59,7 +59,7 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-        <div className="footer-column links">
+        <div className="footer-column1 links">
           <h3>Academics</h3>
           <ul>
             {academics.map((link) => (

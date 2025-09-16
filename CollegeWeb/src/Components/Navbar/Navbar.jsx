@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import "./Navbar.css";
 
 const navs = [
@@ -64,6 +65,7 @@ const routes = {
 };
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <nav>
       <div className="nav-container">
@@ -91,7 +93,7 @@ const Navbar = () => {
           })}
           <li>
             <Link to="/reach-us">
-              <button>
+              <button  onClick={() => setIsOpen(true)}>
                 <i className="fas fa-phone"></i>&nbsp;&nbsp;Reach us
               </button>
             </Link>
