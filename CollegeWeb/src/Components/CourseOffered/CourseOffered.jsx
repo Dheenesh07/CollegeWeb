@@ -1,7 +1,6 @@
 // src/components/CourseOffered.jsx
 import { useState } from "react";
-import "./CourseOffered.css";
-import deanImg from "../../assets/dean.jpg";   
+import "./CourseOffered.css"; 
 import bannerImg from "../../assets/banner.jpg"; 
 
 

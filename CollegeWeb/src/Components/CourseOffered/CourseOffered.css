@@ -86,7 +86,6 @@
 .banner-content {
   position: relative;
   padding-left: 60px;
-  z-index: 1;
 }
 
 .banner-title {
@@ -104,8 +103,4 @@
   color: #1e3a8a;
   text-decoration: none;
   font-weight: 500;
-}
-
-.breadcrumb span {
-  color: #b91c1c; /* red */
 }

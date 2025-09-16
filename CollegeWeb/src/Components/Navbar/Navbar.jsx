@@ -60,12 +60,12 @@ const routes = {
   "Mechanical Engineering": "/departments/me",
   "Science and Humanities": "/departments/sah",
   Resources: "/resources", // placeholder, add route if you create page
-  AICTE: "/aicte", // placeholder
-  Contact: "/reach-us",
+  AICTE: "/AICTE", // placeholder
+  Contact: "/contact",
 };
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
   return (
     <nav>
       <div className="nav-container">

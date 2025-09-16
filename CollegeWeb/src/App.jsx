@@ -7,6 +7,8 @@ import CourseOffered from "./Components/CourseOffered/CourseOffered";
 import DeanDesk from "./Components/Administration/DeanDesk";
 import { ExamCell } from "./Components/Administration/ExamCell";
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import ContactUs from "./Components/Contact/ContactUs.jsx";
+import AICTE from "./Components/AICTE/AICTE.jsx";
 import './App.css'; 
 import Home from './Components/Home/Home.jsx';
 import AllDepartments from './Components/Departments/AllDepartments/AllDepartments';
@@ -16,7 +18,6 @@ import ECE from './Components/Departments/ECE/ECE';
 import EEE from './Components/Departments/EEE/EEE';
 import ME from './Components/Departments/ME/ME';
 import SAH from './Components/Departments/SAH/SAH';
-
 function App() {
   return (
     <BrowserRouter>
@@ -38,6 +39,11 @@ function App() {
         
         <Route path="/reach-us" element={<ReachUsPage />} /> 
         <Route path="/events" element={<EventsPage />} /> 
+        
+         
+        <Route path="/contact" element={<ContactUs/>} /> <Route/>
+        <Route path="/AICTE" element={<AICTE/>} /> <Route/>
+
       </Routes>
       <Footer/>
     </BrowserRouter>
