@@ -1,0 +1,95 @@
+
+.womenemp-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+
+.womenemp-header {
+   background-image: url(/bread.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 250px; 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 80px;
+}
+
+.overlay {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 20px 30px;
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 40px;
+  color: #002366;
+  font-weight: 700;
+  margin: 0;
+}
+
+
+.breadcrumb {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.breadcrumb span:first-child {
+  color: #002366;
+}
+
+.breadcrumb span:last-child {
+  color: #991b1b;
+  font-weight: 600;
+}
+
+/* Main Content */
+.womenemp-main {
+  padding: 50px 80px;
+  background-color: #fff;
+}
+
+.womenemp-description h2 {
+  color: #991b1b;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.womenemp-description p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #555; /* same muted tone */
+}
+
+/* Coordinators Section */
+.coordinators {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.coordinator-card {
+  background-color: #f7f7f7;
+  padding: 20px 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.coordinator-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #002366;
+  margin-bottom: 15px;
+}
+
+.coordinator-card p {
+  font-size: 16px;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
